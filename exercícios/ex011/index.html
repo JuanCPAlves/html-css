@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens flexíveis</h1>
+    <p>Dependendo do tamanho da tela que estiver utilizando, o tamanho da imagem mudará!</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>adicionando músicas e áudios em seu site direto do HTML</p>
+   <audio preload="metadata" autoplay controls loop>
+    <source src="midia/denied access.mp3" type="audio/mpeg"> 
+    <source src="midia/denied-access.ogg" type="audio/ogg">
+    <p>Seu navegador não é compatível com esse áudio</p> 
+   </audio>
+   
+
+    
+</body>
+</html>

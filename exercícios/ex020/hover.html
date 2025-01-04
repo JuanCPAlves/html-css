@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1 {
+            font-size: 3em;
+            text-align: center;
+        }
+
+        div:hover {
+            color: rgb(228, 228, 58);
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display:block;
+            background-color: rgb(133, 133, 0);
+            color: #ffffff;
+            width: 300px;
+            height: 20px;
+            text-align:center;
+        }
+
+        .p1 {
+            font:1.5em verdana
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p class="p1">Passe o mouse no texto abaixo</p>
+    <div>
+        Texto normal
+        <p>Texto secreto</p>
+    </div>
+    
+</body>
+</html>
